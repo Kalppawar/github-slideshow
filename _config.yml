@@ -26,7 +26,7 @@ sass:
 
 ## solarized variant (dark/light)
 solarized:
-  theme:     dark
+  theme:     light
 
 slideNumber:
   # Slide number formatting can be configured using these variables:
@@ -35,7 +35,7 @@ slideNumber:
   #    "c":  flattened slide number
   #  "c/t":  flattened slide number / total slides
   # "none":  dont't show slide numbers
-  format:    "c/t"
+  format:    "h/v"
 
 ## Reveal.initialize
 ## At the end of your page Jekyll initializes reveal by running the following code. Note that all config values are optional and will default as specified below.
@@ -48,7 +48,7 @@ reveal:
   ## Display the page number of the current slide
   #slideNumber: false
   ## Push each slide change to the browser history
-  history: true
+  history: false
   ## Enable keyboard shortcuts for navigation
   keyboard: true
   ## Enable the slide overview mode
@@ -79,11 +79,11 @@ reveal:
   ## Opens links in an iframe preview overlay
   #previewLinks: false
   ## Transition style (default/cube/page/concave/zoom/linear/fade/none)
-  transition: linear
+  transition: cube
   ## Transition speed (default/fast/slow)
   #transitionSpeed: default
   ## Transition style for full page slide backgrounds (default/none/slide/concave/convex/zoom)
-  backgroundTransition: slide
+  backgroundTransition: convex
   ## Number of slides away from the current that are visible
   #viewDistance: 3
   ## Parallax background image (e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
@@ -93,8 +93,8 @@ reveal:
   ## The "normal" size of the presentation, aspect ratio will be preserved
   ## when the presentation is scaled to fit different resolutions. Can be
   ## specified using percentage units.
-  width: 1000
-  height: 920
+  width: 1200
+  height: 1020
   ## Factor of the display size that should remain empty around the content
   margin: 0.1
   ## Bounds for smallest/largest possible scale to apply to content
